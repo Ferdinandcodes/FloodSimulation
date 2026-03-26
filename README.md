@@ -114,10 +114,10 @@ Tested on an 8000×8000 grid (64M cells), 1 hour storm, Loam soil.
 Speedup scales near-linearly up to 4 threads and continues improving at 8. The gap from ideal is expected due to atomic write contention in `waterRoute` during neighbor accumulation.
 
 ### Speedup vs Thread Count
-![Speedup vs Thread Count](../speedup.png)
+![Speedup vs Thread Count](./speedup.png)
 
 ### Simulation Time vs Thread Count
-![Simulation Time vs Thread Count](../speedup_lines.png)
+![Simulation Time vs Thread Count](./speedup_lines.png)
 
 ---
 
@@ -126,7 +126,7 @@ Speedup scales near-linearly up to 4 threads and continues improving at 8. The g
 ### Flooded Area vs Rainfall Intensity
 Clay soil floods heavily even at low rainfall due to poor infiltration. Sand stays near 0% until extreme intensities.
 
-![Flooded Area vs Rainfall Intensity](../rainfall.png)
+![Flooded Area vs Rainfall Intensity](./rainfall.png)
 
 ---
 
